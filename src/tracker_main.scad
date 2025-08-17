@@ -34,7 +34,7 @@ module create_text_label(text_content, y_pos) {
 module create_number_in_hole(number_content, x, y) {
     translate([x, y, box_height - hole_depth - number_depth]) {
         linear_extrude(height = number_depth + 0.02) {
-            text(str(number_content), size = number_size, font = text_font, halign = "center", valign = "center");
+            text(str(number_content), size = number_size, font = font_with_style, halign = "center", valign = "center");
         }
     }
 }

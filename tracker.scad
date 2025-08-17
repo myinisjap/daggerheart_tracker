@@ -22,7 +22,7 @@ spacing_y = 3; // Vertical spacing between rows of holes
 /* [Row Labels] */
 text_depth = 2.5; // Depth of the engraved text labels
 text_size = 8; // Font size for the text labels
-text_font = "Times New Roman"; // ["Liberation Sans", "Arial", "Helvetica", "Times New Roman", "Courier New", "Verdana"] Font family for the text labels
+text_font = "Times New Roman"; // ["Liberation Sans", "Arial", "Helvetica", "Times New Roman", "Courier New", "Verdana"]
 text_labels = "Hope,HP,Stress,Armor"; // Comma-separated string of labels for each row
 use_bold = true; // [boolean] Whether to use bold style for text
 use_italic = false; // [boolean] Whether to use italic style for text
